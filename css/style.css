@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../media/Poly_BG_Grad\ \(1\)_8.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+ .navbar{
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 100%;
+    padding-top: 20px;
+    height: 40px;
+    color: white;
+    border-bottom: 1px solid white;
+
+ }
+
+ ul li{
+    list-style-type: none;
+    display: inline-flex;
+ }
+
+ a{
+    color: white;
+    text-decoration: none;
+    padding-left:55px;
+    padding-right: 55px;
+    font-family: var(--font-family);
+ }
+ a:hover{
+    color: red;
+ }
+
+ /* button */
+ .bn40 {
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: large;
+    padding: 4px 6px;
+    color: #fff !important;
+  }
+  
+  .bn40::after {
+    max-width: 100%;
+    height: 2px;
+    display: block;
+    content: "";
+    background: linear-gradient(-90deg, #ff9100 0%, #f10366 50%, #6173ff 100%);
+    opacity: 1;
+    margin-bottom: -6px;
+    margin-top: 1px;
+  }
+  
+  .bn40div {
+    display: flex;
+  }
+
+ /* header */
+
+ .header{
+    background-color: rgba(0, 0, 0, 0.274);
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+ }
+ /* end header */
+
+
+ .leftsidebar{
+    border-right: 1px solid white;
+    width: 300px;
+    height: 2200px;
+    float: left;
+ }
+
+ .rightsidebar{
+    border-left: 1px solid white;
+    width: 300px;
+    height: 2200px;
+    float: right;
+ }
+
+ h1{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 5em;
+    font-family: var(--font-family);
+
+ }
+
+ h2{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4em;
+    margin-top: 40px;
+    font-family: var(--font-family);
+ }
+ h3{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 30pxl;
+    font-family: var(--font-family);
+ }
+
+
+ /* main */
+
+ p{
+    color: aliceblue;
+    text-align: center;
+    font-family: var(--font-family);
+ }
+
+ /* start about section */
+
+ img{
+    border: 2px solid rgb(0, 0, 0);
+    background-blend-mode: multiply;
+}
+.headerabout{
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 500px;
+}
+
+ .bio{
+    padding-left: 80px;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: var(--font-family);
+}
+.pp{
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+    color: white;
+    font-family: var(--font-family);
+}
+
+/* end about section */
+
+/* start skills section */
+.right1{
+    text-align: center;
+    padding-left: right;
+    font-size: 25px;
+    color: white;
+}
+
+.headerabout1{
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 350px;
+    color: white;
+}
+/* end skills section */
+ 
+
+.footer{
+    border-top: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
